@@ -1,0 +1,5 @@
+# Machine-Learned Exclusion Limits without Binning
+
+This repository corresponds to https://arxiv.org/abs/2211.04806
+
+Machine-Learned Likelihoods (MLL) is a method that, by combining modern machine-learning classification techniques with likelihood-based inference tests, allows to estimate the experimental sensitivity of high-dimensional data sets. We extend the MLL method by including the exclusion hypothesis tests and show that the addition of Kernel Density Estimators avoids the need to bin the classifier output in order to extract the resulting one-dimensional signal and background probability density functions. We first test our method on toy models generated with multivariate Gaussian distributions, where the true probability distribution functions are known. We then apply it to a case of interest in the search for new physics at the HL-LHC, in which a Z′ boson decays into lepton pairs, comparing the performance of our method for estimating 95% CL exclusion limits to the results obtained applying a binned likelihood to the machine-learning classifier output.
